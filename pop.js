@@ -1,10 +1,5 @@
-import React, {
-    Component
-} from 'react';
+import React from 'react';
 import ReactDOM from "react-dom";
-import {
-    flushPage
-} from './ViewCtrl';
 
 //默认的弹窗动画,注意命名syn_防止和其他className重名
 const syn_zoom = `
